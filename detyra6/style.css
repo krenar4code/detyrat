@@ -1,0 +1,50 @@
+.baggages{
+    border: 3px solid red;
+    display: inline-block;
+}
+
+.box-left{
+    border: 3px solid green  ;
+    width: 49%;
+    display: inline-block;
+}
+
+.box-right { 
+    border: 3px solid green;
+    width: 49%;
+    display: inline-block;  
+    
+}
+
+.bags{
+    border: 3px solid yellow;
+    
+}
+
+.bag1{
+    border: 3px solid blue;
+    display: inline-block;
+    width: 45%;
+}
+
+.bag2{
+    border: 3px solid blue;
+    display: inline-block;
+    width: 45%;
+}
+
+.travel {
+    border: 3px solid red;
+    display: inline-block;
+    
+}
+.box2-left{
+    border: 3px solid green;
+    width: 49%;
+    display: inline-block;
+}
+.box2-right{
+    border: 3px solid green;
+    width: 49%;
+    display: inline-block;
+}

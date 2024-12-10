@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#DEDEDE, #C9D8FF);
+}
+
+.container {
+    /* border: 3px solid red; */
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.signin-signup {
+    display: flex;
+    width: 100%;
+}
+
+.sign-in, .sign-up {
+    /* border: 3px solid green; */
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in {
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+
+.sign-up {
+    background: linear-gradient(#6356ae,#5241B1);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px 25px;
+
+}
+
+.sign-in h2, .sign-up h2 {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    border: 3px solid blue;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 20%;
+    color: #555;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sign-in input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sign-in .forgot {
+    color: #555;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.signin-btn, .signup-btn {
+    background-color: #6A1B9A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.signin-btn:hover, .signup-btn:hover {
+    background-color: #4A148C;
+}
+.signup-btn{
+    border: 1px solid white;
+}
+.input-btn{
+    background-color: #ebeaea;    
+}

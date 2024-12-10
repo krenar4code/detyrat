@@ -1,0 +1,167 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #444;
+  padding: 10px 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: #666;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-myself {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.p-text,
+.born-text {
+  font-size: 1rem;
+  margin: 20px 10px;
+}
+
+.img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 10px;
+}
+
+.service-container .space {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.form {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input,
+.form textarea,
+.form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #666;
+}
+
+/* Footer */
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer .socials a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer .socials a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .service-container {
+      grid-template-columns: 1fr;
+  }
+
+  .contact-container {
+      flex-direction: column;
+  }
+
+  .navbar {
+      flex-direction: column;
+  }
+
+  .nav-link {
+      margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-myself {
+      font-size: 1.5rem;
+  }
+
+  .p-text,
+  .born-text {
+      font-size: 0.9rem;
+  }
+
+  .form input,
+  .form textarea,
+  .form button {
+      padding: 8px;
+      font-size: 0.9rem;
+  }
+}

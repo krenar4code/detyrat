@@ -1,0 +1,54 @@
+.page{
+    border: 3px solid black;
+    background-image: url('background.jpg');
+
+}
+.navbar{
+    border: 3px solid red;
+    padding: 1em 2em;
+}
+
+.brand{
+    margin: 40em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign-up{
+    color: rgba(255, 255, 255, 0.648);
+    text-decoration: none;
+}
+.main{
+    border: 3px solid red;
+    padding: 2em;
+
+}
+.main-paragraph{
+    color: rgb(129, 73, 73);
+}
+.main-title{
+    width: 18%;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-text{
+    width: 18%;
+    color: aliceblue;
+    padding-bottom: 1em;
+
+}
+
+.btn-active{
+    border: 2px solid silver;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    background-color:gold;
+}
+.btn{
+    border: 2px solid silver;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;    
+}

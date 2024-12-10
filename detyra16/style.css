@@ -1,0 +1,142 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#666
+  }
+  
+  header .menu-btn {
+    font-size: 1.5em;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#666;
+  }
+  
+  .hero {
+    border: 3px solid red;
+    padding: 40px 20px;
+    padding-left: 13rem;
+
+    }
+  
+  .hero h2 {
+    font-size: 2em;
+  }
+  .recent-works{
+    border: 3px solid green;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icons > *{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#666;
+  }
+  .projects {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 9rem;
+  }
+  
+  .project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .project p {
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  .project span {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 50px;
+}
+.contact-container{
+    display: flex;  
+    justify-content: center;
+}
+.main-circle{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -40px;
+    bottom: 70px;
+    z-index: -1;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-end;
+    padding-right: 2em;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 0.5em 0;
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 0.5em;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 1em;
+}
+  .img{
+    width: 250px;
+    height: 250px;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  

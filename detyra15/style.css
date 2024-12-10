@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border-bottom: 2px solid black;
+    padding: 0.25em 1em;
+    padding-bottom: 0;
+}
+.nav-link{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black;
+}
+.active{
+    border: 2px solid black;
+    border-bottom: 2px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -2px;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.about-myself{
+    padding-top: 1em;
+    margin-bottom: 0.3em;
+    font-size: 9em;
+}
+.first-circle{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+.small-circle{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+.myself{
+    display: flex; 
+    justify-content: center;
+    position: relative;
+}
+.myself > *{
+    /* margin-right: 0.3em; */
+    margin-bottom: 2em;
+}
+.p-text{
+    width: 20%;
+}
+.circle{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+}
+.born{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 3em;
+}
+.circle-4{
+    height: 85px;
+    width: 85px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+.born-text{
+    width: 40%;
+    padding: 1em 1em; 
+    margin-left: 20em;
+    line-height: 2em;
+    font-size: larger;
+}
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3em 3em;
+}
+.space{
+    border-bottom: 1px solid gray;
+    padding: 2.5em 0;
+    font-size: 1.1em;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.contact-container{
+    display: flex;  
+}
+.main-circle{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -40px;
+    bottom: 70px;
+    z-index: -1;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-end;
+    padding-right: 2em;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 0.5em 0;
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 0.5em;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 1em;
+}
+footer {
+    text-align: center;
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+    border-top: 1px solid #ccc;
+    /* border: 3px solid green; */
+}
+
+footer, .socials {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer, .socials a {
+    text-decoration: none;
+    color: white;
+    margin-right: 0.5em;
+}

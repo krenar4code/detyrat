@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+  }
+
+  .list-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: underline overline;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul > li {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+  }

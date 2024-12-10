@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Home Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="logo">MyWebsite</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle Navigation">
+        ☰
+      </button>
+    </nav>
+  </header>
+  
+  <main class="main-content">
+    <section class="hero">
+      <h1>Welcome to MyWebsite</h1>
+      <p>Your journey starts here.</p>
+      <a href="#learn-more" class="btn">Learn More</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+  </footer>
+</body>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+  
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+  
+</html>

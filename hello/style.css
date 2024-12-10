@@ -1,0 +1,103 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2bc87; /* Beige background */
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 15px solid red; /* Outer red border */
+}
+
+.container > * {
+    border: 10px solid green; /* Inner green border */
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid yellow; /* Yellow border for header */
+    background-color: #d2bc87;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu-icon {
+    font-size: 24px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    border: 5px solid yellow; /* Yellow border for content area */
+}
+
+/* Left Section */
+.left, .right {
+    width: 50%;
+    padding: 20px;
+}
+
+.left {
+    border-right: 2px solid #d2bc87;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-family: 'Times New Roman', serif;
+}
+
+.left p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.read-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* Right Section */
+.right h2 {
+    font-size: 24px;
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+.right p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Numbers Section */
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 5px solid blue; /* Blue border around numbers */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.number {
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    background-color: #d2bc87;
+}
