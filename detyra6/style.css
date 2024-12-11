@@ -1,50 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .baggages{
     border: 3px solid red;
-    display: inline-block;
+    display: flex;
 }
 
 .box-left{
     border: 3px solid green  ;
-    width: 49%;
-    display: inline-block;
+    width: 50%;
 }
-
+.box-left img{
+    width: 100%;
+}
 .box-right { 
     border: 3px solid green;
-    width: 49%;
-    display: inline-block;  
-    
+    width: 50%;
+    padding: 2em 2em;
 }
-
+p{
+    margin: 1.5em 0em;
+}
+h2{
+    margin: 1.5em 0em;
+    width: 30%;
+}
 .bags{
     border: 3px solid yellow;
-    
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
 }
-
-.bag1{
+.product {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+.product img {
     border: 3px solid blue;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+.product a {
     display: inline-block;
-    width: 45%;
-}
-
-.bag2{
-    border: 3px solid blue;
-    display: inline-block;
-    width: 45%;
-}
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
 
 .travel {
     border: 3px solid red;
-    display: inline-block;
+    display: flex;
     
 }
 .box2-left{
     border: 3px solid green;
-    width: 49%;
-    display: inline-block;
+    width: 50%;
+    padding: 2em 2em;
+    align-content: center ;
+}
+.box2-left a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 .box2-right{
     border: 3px solid green;
-    width: 49%;
-    display: inline-block;
+    width: 50%;
+}
+.box2-right img{
+    width: 100%;
 }
