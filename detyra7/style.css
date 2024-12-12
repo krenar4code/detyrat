@@ -1,16 +1,37 @@
-.categories {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
     border: 3px solid red;
-    display: inline-block;
     padding: 2em 2em;
 }
-
-.category {
+.product {
     border: 3px solid green;
     display: inline-block;
     padding: 1rem;
     width: 30%;
 }
-
-.p1{
-    padding-bottom: 6em;
+.product img{
+    width: 250px;
+    height: 250px;
+    margin-top: 1em;
+}
+.product h3{
+    margin-top: 1em;
+}
+.product p{
+    width: 45%;
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+.product .text-middle{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.title{
+    margin-left: 10em;
+    margin-bottom: 2em;
+    width: 15%;
 }
