@@ -39,7 +39,6 @@
 .image-section {
     border: 2px solid green;
     display: flex;
-    justify-content: space-between;
 }
 
 .ingredient {
