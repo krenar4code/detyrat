@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-container{
+    /* background-image: url("background.jpg"); */
+}
+.navbar-custom {
+    background-color: #333;
+    color: white;
+}
+.navbar-custom a {
+    color: white;
+}
+
+.button-custom {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.feature-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.feature-box i {
+    font-size: 2rem;
+}
+
+.feature-box h3 {
+    margin: 15px 0;
+    font-size: 1.25rem;
+}
