@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <style>
+        .navbar {
+            border-bottom: 1px solid #ddd;
+        }
+        .nav-link {
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #0044cc;
+        }
+        .nav-link:hover {
+            color: #002a80;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
         .bg-rose {
             background-color: #FFFFFF;
         }
@@ -18,38 +33,45 @@
 </head>
 <body>
 
+<!-- Notification Bar -->
 <div class="bg-primary text-center text-white py-2">
     New Grahams Recipes: Read More
 </div>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
-    <div class="container">
+<nav class="navbar navbar-expand-lg bg-white py-2">
+    <div class="container d-flex justify-content-between align-items-center">
         <!-- Left Section -->
-        <div class="d-flex align-items-center">
-            <ul class="navbar-nav me-auto">
-                <li><a class="nav-link text-blue" href="products.html">Products</a></li>
-                <li><a class="nav-link text-blue" href="about.html">Our Story</a></li>
-                <li><a class="nav-link text-blue" href="ingredients.html">Ingredients</a></li>
-            </ul>
-        </div>
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item mx-3">
+                <a class="nav-link text-blue fw-bold" href="products.html">Products</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link text-blue fw-bold" href="about.html">Our Story</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link text-blue fw-bold" href="ingredients.html">Ingredients</a>
+            </li>
+        </ul>
 
         <!-- Center Logo -->
-        <a class="navbar-brand mx-auto text-blue font-weight-bold" href="home.html">PARTAKE</a>
+        <a class="navbar-brand text-blue fw-bold fs-4" href="home.html">PARTAKE</a>
 
         <!-- Right Section -->
-        <div class="d-flex align-items-center">
-            <ul class="navbar-nav ms-auto">
-                <li><a class="nav-link text-blue" href="">Find Us</a></li>
-                <li><a class="nav-link text-blue" href="recipies.html">Blog</a></li>
-            </ul>
-        </div>
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item mx-3">
+                <a class="nav-link text-blue fw-bold" href="#">Find Us</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link text-blue fw-bold" href="recipies.html">Blog</a>
+            </li>
+        </ul>
     </div>
 </nav>
 
-
-    <!-- Recipe Title Section -->
-    <div class="container text-center py-5 bg-rose">
+<!-- Recipe Title Section -->
+<div class="container text-center py-5 bg-rose">
+    <div class="mx-auto" style="max-width: 600px;">
         <h1 class="fw-bold">The Easiest Gluten-Free Bread Recipe on the Internet</h1>
         <p>Published on Dec 21, 2022</p>
         <div class="my-4">
@@ -64,39 +86,39 @@
             with a golden crust outside. Plus, it’s free of the top 9 allergens.
         </p>
     </div>
+</div>
 
-    <!-- Recipe Section -->
-    <div class="bg-green py-5">
-        <div class="container">
+<!-- Recipe Section -->
+<div class="bg-green py-5">
+    <div class="container">
+        <div class="mx-auto" style="max-width: 700px;">
             <h2 class="text-center fw-bold">Gluten-Free Bread</h2>
             <p class="text-center">Here’s what you’ll need:</p>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <h4>Ingredients</h4>
-                    <ul>
-                        <li>1 Packet of yeast</li>
-                        <li>1 ½ cups warm water (110°F - 115°F)</li>
-                        <li>1 ½ tsp apple cider vinegar</li>
-                        <li>2 tbsp sugar</li>
-                        <li>1 tbsp olive oil</li>
-                        <li>1 tsp salt</li>
-                        <li>1 box of Partake Bread Mix</li>
-                    </ul>
+            <h4>Ingredients</h4>
+            <ul>
+                <li>1 Packet of yeast</li>
+                <li>1 ½ cups warm water (110°F - 115°F)</li>
+                <li>1 ½ tsp apple cider vinegar</li>
+                <li>2 tbsp sugar</li>
+                <li>1 tbsp olive oil</li>
+                <li>1 tsp salt</li>
+                <li>1 box of Partake Bread Mix</li>
+            </ul>
 
-                    <h4>Instructions</h4>
-                    <ol>
-                        <li>Combine yeast, warm water, sugar, and apple cider vinegar in a bowl. Let sit for 5 minutes until frothy.</li>
-                        <li>In a separate bowl, mix Partake Bread Mix with salt. Slowly add the yeast mixture and olive oil to the dry ingredients, stirring to combine.</li>
-                        <li>Knead the dough for 5 minutes, then shape it into a loaf.</li>
-                        <li>Place the loaf in a greased bread pan, cover, and let it rise for 1 hour.</li>
-                        <li>Bake at 375°F for 30-35 minutes until golden brown.</li>
-                        <li>Allow to cool completely before slicing.</li>
-                    </ol>
-                    <p><strong>Note:</strong> Bread is easier to handle and slice once it has sat for at least 24 hours or a minimum of overnight.</p>
-                </div>
-            </div>
+            <h4>Instructions</h4>
+            <ol>
+                <li>Combine yeast, warm water, sugar, and apple cider vinegar in a bowl. Let sit for 5 minutes until frothy.</li>
+                <li>In a separate bowl, mix Partake Bread Mix with salt. Slowly add the yeast mixture and olive oil to the dry ingredients, stirring to combine.</li>
+                <li>Knead the dough for 5 minutes, then shape it into a loaf.</li>
+                <li>Place the loaf in a greased bread pan, cover, and let it rise for 1 hour.</li>
+                <li>Bake at 375°F for 30-35 minutes until golden brown.</li>
+                <li>Allow to cool completely before slicing.</li>
+            </ol>
+            <p><strong>Note:</strong> Bread is easier to handle and slice once it has sat for at least 24 hours or a minimum of overnight.</p>
         </div>
     </div>
+</div>
+
 <!-- Footer -->
 <footer class="text-white py-4 bg-dark">
     <div class="container">
@@ -136,5 +158,6 @@
         </div>
     </div>
 </footer>
+
 </body>
 </html>
