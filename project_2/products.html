@@ -18,9 +18,9 @@
         }
         .hero-section {
             text-align: center;
-            margin: 20px 0;
             background-color: #005099;
             color: white;
+            padding: 20px 0;
         }
         .hero-description {
             margin-top: 15px;
@@ -55,6 +55,90 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        /* Custom responsive styles */
+        @media (max-width: 767px) {
+            .hero-section {
+                padding: 40px 0;
+            }
+
+            .product-category img {
+                width: 100%;
+                height: auto;
+            }
+
+            .navbar-nav {
+                flex-direction: column;
+            }
+
+            .navbar-brand {
+                text-align: center;
+                margin: 10px 0;
+            }
+
+            .products-section .col-md-3,
+            .products-section .col-md-9 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .list-group {
+                padding-left: 0;
+            }
+
+            .list-group-item {
+                padding-left: 0;
+                text-align: center;
+            }
+
+            .text-center {
+                text-align: center !important;
+            }
+
+            /* Safe to Share icons */
+            .safe-to-share img {
+                width: 40px;
+                margin: 5px;
+            }
+
+            /* Footer adjustments */
+            footer .container {
+                text-align: center;
+            }
+
+            footer .col-md-4 {
+                margin-bottom: 20px;
+            }
+
+            footer .d-flex {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            footer i {
+                margin: 5px;
+            }
+
+            footer form {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .navbar-nav {
+                margin-top: 10px;
+            }
+
+            .products-section .col-md-3 {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            .products-section .col-md-9 {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -64,36 +148,35 @@
 </div>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-white py-2">
+<nav class="navbar navbar-expand-lg bg-blue py-2">
     <div class="container d-flex justify-content-between align-items-center">
         <!-- Left Section -->
         <ul class="navbar-nav flex-row">
             <li class="nav-item mx-3">
-                <a class="nav-link text-blue fw-bold" href="products.html">Products</a>
+                <a class="nav-link text-white fw-bold" href="products.html">Products</a>
             </li>
             <li class="nav-item mx-3">
-                <a class="nav-link text-blue fw-bold" href="about.html">Our Story</a>
+                <a class="nav-link text-white fw-bold" href="about.html">Our Story</a>
             </li>
             <li class="nav-item mx-3">
-                <a class="nav-link text-blue fw-bold" href="ingredients.html">Ingredients</a>
+                <a class="nav-link text-white fw-bold" href="ingredients.html">Ingredients</a>
             </li>
         </ul>
 
         <!-- Center Logo -->
-        <a class="navbar-brand text-blue fw-bold fs-4" href="home.html">PARTAKE</a>
+        <a class="navbar-brand text-white fw-bold fs-4" href="home.html">PARTAKE</a>
 
         <!-- Right Section -->
         <ul class="navbar-nav flex-row">
             <li class="nav-item mx-3">
-                <a class="nav-link text-blue fw-bold" href="#">Find Us</a>
+                <a class="nav-link text-white fw-bold" href="#">Find Us</a>
             </li>
             <li class="nav-item mx-3">
-                <a class="nav-link text-blue fw-bold" href="recipies.html">Blog</a>
+                <a class="nav-link text-white fw-bold" href="recipies.html">Blog</a>
             </li>
         </ul>
     </div>
 </nav>
-
 
 <!-- Hero Section -->
 <div class="fluid-container hero-section">
@@ -218,7 +301,7 @@
             <img src="img-home/icon-sesame.png" alt="Sesame Free" width="40">
             <img src="img-home/icon-fish.png" alt="Fish Free" width="40">
             <img src="img-home/icon-wheat.png" alt="Wheat Free" width="40">
-            <img src="img-home/" alt="Shellfish Free" width="40">
+            <img src="img-home/icon-shellfish.png" alt="Shellfish Free" width="40">
         </div>
     </div>
 </div>

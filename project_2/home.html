@@ -7,50 +7,63 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
+        /* Custom styles for responsiveness */
         .top-banner {
             background-color: #005099;
             color: white;
             padding: 10px 0;
             text-align: center;
         }
+
         .navbar {
             background-color: #BEF4FE;
         }
-        .nav-link{
+
+        .nav-link {
             color: #005099;
         }
-        .text{
+
+        .text {
             color: #005099;
         }
+
         .hero-section {
             background-color: #BEF4FE;
         }
+
         .hero-content {
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
         }
+
         .hero-content h1 {
             font-weight: bold;
         }
+
         .hero-content img {
             max-width: 300px;
+            width: 100%;
         }
+
         .bg-pink {
             background-color: #F7B9E1;
         }
+
         .bg-green {
-            background-color: #60CF94; 
+            background-color: #60CF94;
         }
+
         .bg-light-blue {
-            background-color: #ABDBE9; 
+            background-color: #ABDBE9;
         }
+
         .products-section .image-container {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 200px; 
+            height: 200px;
         }
 
         .products-section img {
@@ -60,31 +73,38 @@
             height: auto;
             object-fit: contain;
         }
+
         .safe-to-share {
             background-color: #f8f9fa;
             padding: 50px 0;
         }
+
         .safe-to-share img {
             width: 60px;
         }
+
         .ingredients-section .content {
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
             flex-wrap: wrap;
         }
+
         .ingredients-section .text {
             max-width: 50%;
         }
+
         .ingredients-section .images img {
             width: 70px;
             height: auto;
             margin-bottom: 15px;
         }
+
         .whats-new img {
             max-width: 100%;
             height: auto;
         }
+
         .neighborhood-section {
             margin: 50px 0;
             display: flex;
@@ -94,29 +114,128 @@
             background-color: #005099;
             color: white;
         }
+
         .neighborhood-section .text {
             max-width: 45%;
         }
+
         .neighborhood-section a {
             color: white;
             text-decoration: underline;
         }
+
         .neighborhood-section img {
             max-width: 300px;
             height: auto;
         }
+
         footer {
             background-color: #235E6B;
             color: white;
             padding: 40px 0;
         }
+
         footer a {
             color: white;
             text-decoration: none;
         }
+
         footer a:hover {
             text-decoration: underline;
         }
+
+        /* Custom Media Queries */
+        @media (max-width: 768px) {
+            .hero-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero-content img {
+                max-width: 80%;
+            }
+
+            .products-section .col-md-4 {
+                margin-bottom: 30px;
+            }
+
+            .products-section .image-container {
+                height: 150px;
+            }
+
+            .ingredients-section .content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .ingredients-section .text {
+                max-width: 90%;
+                text-align: center;
+            }
+
+            .ingredients-section .images {
+                text-align: center;
+            }
+
+            .whats-new .col-md-4 {
+                margin-bottom: 20px;
+            }
+
+            .neighborhood-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .neighborhood-section .text {
+                max-width: 100%;
+            }
+
+            footer .col-md-4 {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            footer i {
+                font-size: 20px;
+                margin: 10px;
+            }
+
+            footer form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 10px;
+            }
+
+            footer form input {
+                width: 100%;
+                max-width: 300px;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero-content h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+            .products-section .col-md-4 {
+                margin-bottom: 20px;
+            }
+
+            .safe-to-share img {
+                width: 50px;
+            }
+
+            footer .col-md-4 ul {
+                text-align: center;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -156,19 +275,14 @@
     </div>
 </nav>
 
-
 <!-- Hero Section -->
 <div class="fluid-container hero-section py-5">
     <div class="container">
         <div class="hero-content">
             <div class="text">
-                <h1>
-                    Gimme <br>S'mores
-                </h1>
-                <p>
-                    Find our NEW Classic Grahams <br>now at Target stores nationwide.
-                </p>
-                <a href="" class="btn btn-primary">Find a Store</a>
+                <h1>Gimme <br>S'mores</h1>
+                <p>Find our NEW Classic Grahams <br>now at Target stores nationwide.</p>
+                <a href="#" class="btn btn-primary">Find a Store</a>
             </div>
             <div>
                 <img src="img-products/ClassicGrahams.webp" alt="Classic Grahams">
@@ -177,9 +291,8 @@
     </div>
 </div>
 
-
 <!-- Products Section -->
-<div class="fluid-container products-section my-5 text">
+<div class="fluid-container products-section text">
     <div class="row text-center">
         <div class="col-md-4 bg-pink">
             <h3>Cookies</h3>
@@ -270,50 +383,52 @@
 
 <!-- Neighborhood Section -->
 <div class="fluid-container neighborhood-section d-flex justify-content-center align-items-center gap-5">
-    <div  class="text-center">
+    <div class="text-center">
         <h2>Partake in Your Neighborhood.</h2>
     </div>
-    <a href="">Find a Store</a>
+    <a href="#">Find a Store</a>
 </div>
-    <main class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-center">
-                <img src="img-home/neighborhood.webp" alt="Partake Birthday Cake Cookies" class="col-md-4">
-            </div>
-            <div class="text col-md-6">
-                <blockquote class="blockquote">
-                    <p class="mb-3">Finally able to eat cookies with a nut allergy! My niece always gets left out on the "good" treats! When my husband and I realized what all the harmful stuff was NOT in these cookies, we stopped eating them immediately so that they could be enjoyed by her.</p>
-                </blockquote>
-            </div>
+
+<main class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6 text-center">
+            <img src="img-home/neighborhood.webp" alt="Partake Birthday Cake Cookies" class="col-md-4">
         </div>
-    
-        <div class="text text-center my-5">
-            <h2>@PartakeFoods</h2>
-            <p>Follow us on Instagram</p>
+        <div class="text col-md-6">
+            <blockquote class="blockquote">
+                <p class="mb-3">Finally able to eat cookies with a nut allergy! My niece always gets left out on the "good" treats! When my husband and I realized what all the harmful stuff was NOT in these cookies, we stopped eating them immediately so that they could be enjoyed by her.</p>
+            </blockquote>
         </div>
-    </main>
-    
+    </div>
+
+    <div class="text text-center my-5">
+        <h2>@PartakeFoods</h2>
+        <p>Follow us on Instagram</p>
+    </div>
+</main>
+
+<!-- Footer -->
 <footer class="text-white py-4">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-whitetext-decoration-none">FAQ</a></li>
-                    <li><a href="#" class="text-whitetext-decoration-none">Contact</a></li>
-                    <li><a href="#" class="text-whitetext-decoration-none">Blog</a></li>
-                    <li><a href="#" class="text-whitetext-decoration-none">Sitemap</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Sitemap</a></li>
                 </ul>
             </div>
-    
+
             <div class="col-md-4">
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-whitetext-decoration-none">Press</a></li>
-                    <li><a href="#" class="text-whitetext-decoration-none">Terms</a></li>
-                    <li><a href="#" class="text-whitetext-decoration-none">Privacy</a></li>
-                    <li><a href="#" class="text-whitetext-decoration-none">Become an Ambassador</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Press</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Terms</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Privacy</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Become an Ambassador</a></li>
                 </ul>
             </div>
-    
+
             <div class="col-md-4">
                 <h5>Be in the Know.</h5>
                 <i class="fa-brands fa-twitter"></i>
@@ -323,13 +438,14 @@
                 <i class="fa-brands fa-tiktok"></i>
                 <i class="fa-brands fa-linkedin"></i>
                 <form class="d-flex align-items-center">
-                    <input type="email" class="form-control me-2"placeholder="Email Address" style="max-width: 300px;">
-                    <button type="submit" class="btnbtn-primary">Subscribe</button>
+                    <input type="email" class="form-control me-2" placeholder="Email Address" style="max-width: 300px;">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
                 </form>
-                <p class="mt-2">Get updates, coupons, and news fromPartake!</p>
+                <p class="mt-2">Get updates, coupons, and news from Partake!</p>
             </div>
         </div>
     </div>
 </footer>
+
 </body>
 </html>
