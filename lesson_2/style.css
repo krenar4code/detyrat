@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    position: relative;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+}
+.icons i{
+    color: red;
+    font-size: 2rem;
+    margin: 0 62px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+}
+.steps .circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 65px;
+}
+.steps .text {
+    margin-top: 100px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
