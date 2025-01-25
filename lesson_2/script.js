@@ -5,7 +5,6 @@ const stepTexts = document.querySelectorAll(".step-text");
 
 checkIcons.forEach((checkIcon, index) => {
     checkIcon.addEventListener("click", () => {
-        // Update progress bar width
         const progressWidth = ((index + 1) / checkIcons.length) * 100;
         progressBar.style.width = `${progressWidth}%`;
 
