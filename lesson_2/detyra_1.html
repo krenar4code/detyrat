@@ -10,29 +10,30 @@
 <body>
     <div class="progress-container">
         <div class="icons">
-                <i class="fa-solid fa-expand"></i>
-                <i class="fa-solid fa-file-invoice"></i>
-                <i class="fa-regular fa-credit-card"></i>
-                <i class="fa-solid fa-right-left"></i>
-                <i class="fa-solid fa-location-dot"></i>
+            <i class="fa-solid fa-expand step-icon" data-step="1"></i>
+            <i class="fa-solid fa-file-invoice step-icon" data-step="2"></i>
+            <i class="fa-regular fa-credit-card step-icon" data-step="3"></i>
+            <i class="fa-solid fa-right-left step-icon" data-step="4"></i>
+            <i class="fa-solid fa-location-dot step-icon" data-step="5"></i>
         </div>
-        <div class="bar">
-            <i class="fa-solid fa-circle-check"></i>
-            <i class="fa-solid fa-circle-check"></i>
-            <i class="fa-solid fa-circle-check"></i>
-            <i class="fa-solid fa-circle-check"></i>
-            <i class="fa-solid fa-circle-check"></i>
+        <div class="progress-bar">
+            <div class="bar"></div>
+            <div class="check-icons">
+                <i class="fa-solid fa-circle-check check-icon" data-step="1"></i>
+                <i class="fa-solid fa-circle-check check-icon" data-step="2"></i>
+                <i class="fa-solid fa-circle-check check-icon" data-step="3"></i>
+                <i class="fa-solid fa-circle-check check-icon" data-step="4"></i>
+                <i class="fa-solid fa-circle-check check-icon" data-step="5"></i>
+            </div>
         </div>
-        <div class="progress-bar"></div>    
         <div class="steps">
-                <span>Add To Cart</span>
-                <span>Fill Details</span>
-                <span>Make Payment</span>
-                <span>Order in Progress</span>
-                <span>Order Arrived</span>
+            <span class="step-text" data-step="1">Add To Cart</span>
+            <span class="step-text" data-step="2">Fill Details</span>
+            <span class="step-text" data-step="3">Make Payment</span>
+            <span class="step-text" data-step="4">Order in Progress</span>
+            <span class="step-text" data-step="5">Order Arrived</span>
         </div>
-    </div>
-
+    </div>  
     <script src="script.js"></script>
 </body>
 </html>
