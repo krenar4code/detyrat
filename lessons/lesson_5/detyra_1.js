@@ -65,3 +65,17 @@
 // } else {
 //     console.log("Obese");
 // }   
+
+    function walkForward() {
+    console.log('The robot is walking forward.');
+    }
+
+    function walkBackward() {
+    console.log('The robot is walking backward.');
+    }       
+    walkForward();
+    walkBackward();
+    console.log('Goodbye, see you next time!');
+    // The robot is walking forward.
+    // The robot is walking backward.
+    // Goodbye, see you next time!
