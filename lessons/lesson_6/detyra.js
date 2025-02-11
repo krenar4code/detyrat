@@ -1,19 +1,23 @@
-// task1
-
-// let n1 = +prompt("Enter a number: ");
-// let n2 = +prompt("Enter a number: ");
-
-// for (let i = n1; i <= n2; i++) {
-//         console.log(i);
-//     }
+// 1. Write a program that gets 2 numbers n1 and n2 and than prints the numbers from n1 to n2 EX: n1 =6 n2 =10 => 6,7,8,9,10
 
 
-// task2
+// let n1 = +prompt("Enter the first number: ");
+// let n2 = +prompt("Enter the second number: ");
+
+// while (n1 <= n2) {
+//     console.log(n1);
+//     n1++;
+// }
+
+
+// 2. Wrtite a program that gets the age of the user and prints dhe the years that he has been alive.
+// EX: age = 10 -> 2015,2016,...2025
 
 // let age = +prompt("Enter your age: ");
 // let currentYear = 2025;
 // let birthYear = currentYear - age;
 
-// for (let i = birthYear; i <= currentYear; i++) {
-//     console.log(i);
+// while (birthYear <= currentYear) {
+//     console.log(birthYear);
+//     birthYear++;
 // }
