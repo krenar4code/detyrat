@@ -66,16 +66,11 @@
 //     console.log("Obese");
 // }   
 
-    function walkForward() {
-    console.log('The robot is walking forward.');
-    }
+function addNumbers(a, b) {
+    let sum = a + b;
+    return sum;
+  }
 
-    function walkBackward() {
-    console.log('The robot is walking backward.');
-    }       
-    walkForward();
-    walkBackward();
-    console.log('Goodbye, see you next time!');
-    // The robot is walking forward.
-    // The robot is walking backward.
-    // Goodbye, see you next time!
+    let result = addNumbers(5, 10);
+    console.log(result); 
+
