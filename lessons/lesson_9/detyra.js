@@ -57,6 +57,6 @@ let product_list = [
 
 // 3. Shkruaj nje program qe printon cmimin e cdo produkti me 20% zbritje
 
-for (let i = 0; i < product_list.length; i++) {
-    console.log(product_list[i].price * 0.8);
-}
+// for (let i = 0; i < product_list.length; i++) {
+//     console.log(product_list[i].price * 0.8);
+// }
